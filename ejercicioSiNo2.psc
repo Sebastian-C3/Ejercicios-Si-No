@@ -1,15 +1,15 @@
 Algoritmo ejercicioSiNo2
 	
-	definir numeroIngresado Como Real;
+	definir numeroIngresado Como Entero;
 	
-	Escribir "Ingrese un número";
+	Escribir "Ingrese un nÃºmero";
 	Leer numeroIngresado;
 	
 	
 	Si numeroIngresado MOD 2 = 0 Entonces
-		Escribir "El número ingresado es par";
+		Escribir "El nÃºmero ingresado es par";
 	SiNo
-		Escribir "El número ingresado es impar";
+		Escribir "El nÃºmero ingresado es impar";
 	Fin Si
 
 FinAlgoritmo
