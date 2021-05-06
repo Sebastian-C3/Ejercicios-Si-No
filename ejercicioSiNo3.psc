@@ -1,7 +1,9 @@
 Algoritmo ejercicioSiNo3
 	
 	definir horaIngreso Como entero;
+	horaIngreso = 0;
 	definir nombreAlumno como texto;
+	nombreAlumno = "def alumno";
 	
 	Escribir "Ingrese nombre";
 	Leer nombreAlumno;
