@@ -7,7 +7,7 @@ Algoritmo ejercicioSiNo2
 	Leer numeroIngresado;
 	
 	
-	Si numeroIngresado MOD 2 = 0 Entonces
+	Si numeroIngresado MOD 2 == 0 Entonces
 		Escribir "El número ingresado es par";
 	SiNo
 		Escribir "El número ingresado es impar";
