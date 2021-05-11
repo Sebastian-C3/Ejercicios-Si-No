@@ -5,6 +5,11 @@ Algoritmo ejercicioSiNo4
 	estadoLluvia = Falso;
 	paraguasListo = Falso;
 	
+	Escribir "Esta lloviendo?";
+	Leer estadoLluvia;
+	Escribir "Tenes listo el paraguas?";
+	Leer paraguasListo;
+	
 	Si estadoLluvia y paraguasListo  Entonces
 		Escribir "Esta lloviendo, agarra el paraguas!";
 	SiNo
