@@ -10,11 +10,10 @@ Algoritmo ejercicioSiNoExtre
 	Escribir "  3 - Nunca me llego";	
 	Leer estadoEntrega;
 	
-	Escribir "Ingrese cantidad de dÃ­as que demoro la entrega";
-	Leer diasEntrega;
-	
 	Segun estadoEntrega Hacer
 		1:
+			Escribir "Ingrese cantidad de días que demoro la entrega";
+			Leer diasEntrega;
 			
 			Si diasEntrega > 90 Entonces
 				Escribir "El paquete llego tarde";
@@ -25,6 +24,8 @@ Algoritmo ejercicioSiNoExtre
 			Fin Si
 			
 		2:
+			Escribir "Ingrese cantidad de días que demoro la entrega";
+			Leer diasEntrega;
 			
 			Si diasEntrega>90 Entonces
 				Escribir "El paquete llego tarde";
